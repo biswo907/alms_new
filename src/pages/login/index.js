@@ -12,7 +12,8 @@ const LoginPage = ({ navigation }) => {
 
   return (
     <SafeAreaView>
-      <View style={{ height: DeviceHeight, width: DeviceWidth, backgroundColor: '#888' }}>
+      {/* <View style={{ height: DeviceHeight, width: DeviceWidth, backgroundColor: '#888' }}> */}
+      <View className="h-80 w-80 bg-amber-800">
         <Button title="Go To Signup" onPress={() => navigation.navigate('signup')} />
       </View>
     </SafeAreaView>
